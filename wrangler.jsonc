@@ -1,0 +1,19 @@
+{
+  "name": "gemini",
+  "main": "worker.js",
+  "compatibility_date": "2025-05-01",
+  "observability": {
+    "enabled": true
+  },
+  "triggers": {
+    "crons": [
+      "0 8 * * *"
+    ]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "KV_BINDING",
+      "id": "f164897035084dafb94257f3b962e5c5"
+    }
+  ]
+}
